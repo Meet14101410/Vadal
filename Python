@@ -1,0 +1,16 @@
+def get_vadal_profile():
+    village_data = {
+        "Name": "Vadal",
+        "District": "Junagadh",
+        "State": "Gujarat",
+        "Highway": "NH 151 (Rajkot-Junagadh)",
+        "Primary_Sector": "Agriculture"
+    }
+    
+    print("-" * 25)
+    for key, value in village_data.items():
+        print(f"{key:15}: {value}")
+    print("-" * 25)
+
+if __name__ == "__main__":
+    get_vadal_profile()
