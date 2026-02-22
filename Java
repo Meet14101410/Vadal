@@ -1,0 +1,16 @@
+public class VadalVillage {
+    private String name = "Vadal";
+    private String district = "Junagadh";
+    private String significance = "Highway Junction";
+
+    public void showDetails() {
+        System.out.println("Village Name: " + name);
+        System.out.println("District:     " + district);
+        System.out.println("Significance: " + significance);
+    }
+
+    public static void main(String[] args) {
+        VadalVillage myVillage = new VadalVillage();
+        myVillage.showDetails();
+    }
+}
